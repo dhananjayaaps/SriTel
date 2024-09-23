@@ -1,19 +1,15 @@
-package com.dotcare.backend.controllers;
+package com.sritel.accountservice.controllers;
 
-import com.dotcare.backend.dto.ForgetPassword;
-import com.dotcare.backend.entity.User;
-import com.dotcare.backend.entity.VerificationToken;
-import com.dotcare.backend.repository.RoleRepository;
-import com.dotcare.backend.repository.UserRepository;
-import com.dotcare.backend.repository.VerificationTokenRepository;
-import com.dotcare.backend.service.CustomUserDetailsService;
-import com.dotcare.backend.service.EmailService;
-import com.dotcare.backend.util.JwtHelper;
+import com.sritel.accountservice.dto.ForgetPassword;
+import com.sritel.accountservice.entity.User;
+import com.sritel.accountservice.entity.VerificationToken;
+import com.sritel.accountservice.repository.UserRepository;
+import com.sritel.accountservice.repository.VerificationTokenRepository;
+import com.sritel.accountservice.service.EmailService;
 import jakarta.mail.MessagingException;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,4 +1,4 @@
-package com.dotcare.backend.util;
+package com.sritel.accountservice.util;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

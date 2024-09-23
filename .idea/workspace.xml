@@ -4,25 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca27ce66-c0ff-48e8-afce-9ef91fc6edda" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscoveryService/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscoveryService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscoveryService/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscoveryService/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscoveryService/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscoveryService/src/main/java/com/sritel/discoveryservice/DiscoveryServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscoveryService/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscoveryService/src/test/java/com/sritel/discoveryservice/DiscoveryServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SriTel.iml" afterDir="false" />
+    <list default="true" id="ca27ce66-c0ff-48e8-afce-9ef91fc6edda" name="Changes" comment="created discovery service">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AccountService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/AccountRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/AccountService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/config/PasswordEncoderConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/config/PasswordEncoderConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/controllers/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/controllers/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/controllers/ResetPasswordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/controllers/ResetPasswordController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/controllers/RolesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/controllers/RolesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/dto/ApiResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/dto/ApiResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/dto/ForgetPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/dto/ForgetPassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/dto/JwtResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/dto/JwtResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/dto/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/dto/LoginRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/dto/LoginResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/dto/LoginResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/dto/RoleRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/dto/RoleRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/dto/SignupRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/dto/SignupRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/dto/UserDetailsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/dto/UserDetailsResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/entity/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/entity/VerificationToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/entity/VerificationToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/repository/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/repository/RoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/repository/VerificationTokenRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/repository/VerificationTokenRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/service/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/service/CustomUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/service/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/service/EmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/util/JwtAuthenticationEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/util/JwtAuthenticationEntryPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/util/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/util/JwtAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/util/JwtHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccountService/src/main/java/com/sritel/accountservice/util/JwtHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountService/src/main/resources/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/AccountService/src/main/resources/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/AccountService/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,10 +78,13 @@
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.AccountServiceApplication.executor": "Run",
     "Spring Boot.DiscoveryServiceApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "openjdk-23",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/dhana/IdeaProjects/SriTel/AccountService/src/main/java/com/sritel/accountservice",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,7 +93,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dhana\IdeaProjects\SriTel\AccountService\src\main\java\com\sritel\accountservice" />
+      <recent name="C:\Users\dhana\IdeaProjects\SriTel\AccountService\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AccountServiceApplication">
+    <configuration name="AccountServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="AccountService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sritel.accountservice.AccountServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DiscoveryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="DiscoveryService" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sritel.discoveryservice.DiscoveryServiceApplication" />
@@ -84,8 +131,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727061250826</updated>
-      <workItem from="1727061251851" duration="3167000" />
+      <workItem from="1727061251851" duration="5548000" />
     </task>
+    <task id="LOCAL-00001" summary="created discovery service">
+      <option name="closed" value="true" />
+      <created>1727064558245</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727064558245</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,5 +149,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="created discovery service" />
+    <option name="LAST_COMMIT_MESSAGE" value="created discovery service" />
   </component>
 </project>

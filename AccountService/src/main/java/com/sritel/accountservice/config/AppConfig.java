@@ -1,4 +1,4 @@
-package com.dotcare.backend.config;
+package com.sritel.accountservice.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

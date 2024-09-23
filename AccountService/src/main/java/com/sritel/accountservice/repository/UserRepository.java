@@ -1,7 +1,7 @@
-package com.dotcare.backend.repository;
+package com.sritel.accountservice.repository;
 
-import com.dotcare.backend.entity.Role;
-import com.dotcare.backend.entity.User;
+import com.sritel.accountservice.entity.Role;
+import com.sritel.accountservice.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

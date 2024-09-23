@@ -1,8 +1,8 @@
-package com.dotcare.backend.config;
+package com.sritel.accountservice.config;
 
-import com.dotcare.backend.service.CustomUserDetailsService;
-import com.dotcare.backend.util.JwtAuthenticationEntryPoint;
-import com.dotcare.backend.util.JwtAuthenticationFilter;
+import com.sritel.accountservice.service.CustomUserDetailsService;
+import com.sritel.accountservice.util.JwtAuthenticationEntryPoint;
+import com.sritel.accountservice.util.JwtAuthenticationFilter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;

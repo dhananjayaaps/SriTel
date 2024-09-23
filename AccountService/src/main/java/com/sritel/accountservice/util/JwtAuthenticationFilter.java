@@ -1,4 +1,4 @@
-package com.dotcare.backend.util;
+package com.sritel.accountservice.util;
 
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.MalformedJwtException;

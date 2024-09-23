@@ -1,4 +1,4 @@
-package com.dotcare.backend.dto;
+package com.sritel.accountservice.dto;
 
 public class JwtResponse {
     private String token;

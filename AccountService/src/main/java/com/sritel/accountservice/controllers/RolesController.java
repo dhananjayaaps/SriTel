@@ -1,12 +1,12 @@
-package com.dotcare.backend.controllers;
+package com.sritel.accountservice.controllers;
 
-import com.dotcare.backend.dto.ApiResponse;
-import com.dotcare.backend.dto.RoleRequest;
-import com.dotcare.backend.dto.UserDTO;
-import com.dotcare.backend.entity.Role;
-import com.dotcare.backend.entity.User;
-import com.dotcare.backend.repository.RoleRepository;
-import com.dotcare.backend.repository.UserRepository;
+import com.sritel.accountservice.dto.ApiResponse;
+import com.sritel.accountservice.dto.RoleRequest;
+import com.sritel.accountservice.dto.UserDTO;
+import com.sritel.accountservice.entity.Role;
+import com.sritel.accountservice.entity.User;
+import com.sritel.accountservice.repository.RoleRepository;
+import com.sritel.accountservice.repository.UserRepository;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

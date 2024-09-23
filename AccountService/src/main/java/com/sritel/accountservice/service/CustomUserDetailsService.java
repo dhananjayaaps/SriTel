@@ -1,7 +1,7 @@
-package com.dotcare.backend.service;
+package com.sritel.accountservice.service;
 
-import com.dotcare.backend.entity.User;
-import com.dotcare.backend.repository.UserRepository;
+import com.sritel.accountservice.entity.User;
+import com.sritel.accountservice.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

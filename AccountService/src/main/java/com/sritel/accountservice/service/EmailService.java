@@ -1,6 +1,5 @@
-package com.dotcare.backend.service;
+package com.sritel.accountservice.service;
 
-import com.dotcare.backend.entity.User;
 import jakarta.mail.MessagingException;
 import jakarta.mail.internet.MimeMessage;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,7 +1,7 @@
-package com.dotcare.backend.repository;
+package com.sritel.accountservice.repository;
 
-import com.dotcare.backend.entity.User;
-import com.dotcare.backend.entity.VerificationToken;
+import com.sritel.accountservice.entity.User;
+import com.sritel.accountservice.entity.VerificationToken;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface VerificationTokenRepository extends JpaRepository<VerificationToken, Long> {

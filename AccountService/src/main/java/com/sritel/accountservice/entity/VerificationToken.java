@@ -1,11 +1,10 @@
-package com.dotcare.backend.entity;
+package com.sritel.accountservice.entity;
 
 import jakarta.persistence.*;
-
-import java.util.Date;
-
 import lombok.Getter;
 import lombok.Setter;
+
+import java.util.Date;
 
 @Entity
 @Getter

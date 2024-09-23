@@ -1,4 +1,4 @@
-package com.dotcare.backend.dto;
+package com.sritel.accountservice.dto;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

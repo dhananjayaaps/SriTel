@@ -1,4 +1,4 @@
-package com.dotcare.backend.util;
+package com.sritel.accountservice.util;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

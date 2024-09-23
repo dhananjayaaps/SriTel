@@ -1,6 +1,6 @@
-package com.dotcare.backend.exception;
+package com.sritel.accountservice.exception;
 
-import com.dotcare.backend.dto.ApiResponse;
+import com.sritel.accountservice.dto.ApiResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
