@@ -1,4 +1,4 @@
-package com.sritel.accountservice;
+package com.sritel.gatewayservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class AccountServiceApplication {
+public class GatewayServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(AccountServiceApplication.class, args);
+        SpringApplication.run(GatewayServiceApplication.class, args);
     }
 
 }
