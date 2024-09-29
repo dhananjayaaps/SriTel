@@ -3,28 +3,30 @@ package com.sritel.gatewayservice;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.gateway.route.RouteLocator;
-import org.springframework.cloud.gateway.route.builder.RouteLocatorBuilder;
 import org.springframework.context.annotation.Bean;
+import org.springframework.web.cors.CorsConfiguration;
+import org.springframework.web.cors.reactive.CorsWebFilter;
+import org.springframework.web.cors.reactive.UrlBasedCorsConfigurationSource;
 
 @SpringBootApplication
-@EnableDiscoveryClient
+@EnableDiscoveryClient  // Enable Eureka Discovery
 public class GatewayServiceApplication {
-
-    @Bean
-    public RouteLocator customRouteLocator(RouteLocatorBuilder builder) {
-        return builder.routes()
-                .route("service1", r -> r.path("/auth/**")
-                        .filters(f -> f.stripPrefix(1))
-                        .uri("lb://ACCOUNTSERVICE"))
-                .route("service2", r -> r.path("/billing/**")
-                        .filters(f -> f.stripPrefix(1))
-                        .uri("lb://BILLINGSERVICE"))
-                .build();
-    }
 
     public static void main(String[] args) {
         SpringApplication.run(GatewayServiceApplication.class, args);
     }
 
+    // Global CORS configuration
+    @Bean
+    public CorsWebFilter corsFilter() {
+        CorsConfiguration config = new CorsConfiguration();
+        config.setAllowCredentials(true);
+        config.addAllowedOrigin("http://127.0.0.1:5500");  // Allow frontend origin
+        config.addAllowedHeader("*");  // Allow all headers
+        config.addAllowedMethod("*");  // Allow all methods (GET, POST, etc.)
+
+        UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
+        source.registerCorsConfiguration("/**", config);
+        return new CorsWebFilter(source);
+    }
 }

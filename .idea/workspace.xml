@@ -4,11 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca27ce66-c0ff-48e8-afce-9ef91fc6edda" name="Changes" comment="fixed gateway and bill service">
+    <list default="true" id="ca27ce66-c0ff-48e8-afce-9ef91fc6edda" name="Changes" comment="changed gateway service">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BillingService/src/main/java/com/sritel/billingservice/exception/PaymentProcessingException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/sritel/api_gateway/ApiGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/sritel/api_gateway/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/sritel/api_gateway/filter/AuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/sritel/api_gateway/filter/RouteValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/sritel/api_gateway/util/CodeList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/sritel/api_gateway/util/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/test/java/com/sritel/api_gateway/ApiGatewayApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BillingService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BillingService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BillingService/src/main/java/com/sritel/billingservice/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/BillingService/src/main/java/com/sritel/billingservice/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BillingService/src/main/java/com/sritel/billingservice/controllers/BillingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BillingService/src/main/java/com/sritel/billingservice/controllers/BillingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BillingService/src/main/java/com/sritel/billingservice/exception/ApiResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/BillingService/src/main/java/com/sritel/billingservice/dto/ApiResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BillingService/src/main/java/com/sritel/billingservice/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/BillingService/src/main/java/com/sritel/billingservice/exception/GlobalExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GatewayService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GatewayService/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GatewayService/src/main/java/com/sritel/gatewayservice/GatewayServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/GatewayService/src/main/java/com/sritel/gatewayservice/GatewayServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GatewayService/src/main/java/com/sritel/gatewayservice/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/GatewayService/src/main/java/com/sritel/gatewayservice/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GatewayService/src/main/java/com/sritel/gatewayservice/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GatewayService/src/main/java/com/sritel/gatewayservice/exception/ApiResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GatewayService/src/main/java/com/sritel/gatewayservice/exception/GlobalExceptionHandler.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/GatewayService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/GatewayService/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,10 +86,10 @@
     &quot;Spring Boot.BillingServiceApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.DiscoveryServiceApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.GatewayServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;sineth&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-23&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/dhana/IdeaProjects/SriTel/BillingService/src/main/java/com/sritel/billingservice&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dhana/IdeaProjects/SriTel&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -78,6 +101,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dhana\IdeaProjects\SriTel" />
       <recent name="C:\Users\dhana\IdeaProjects\SriTel\BillingService\src\main\java\com\sritel\billingservice" />
       <recent name="C:\Users\dhana\IdeaProjects\SriTel\GatewayService\src\main\java\com\sritel\gatewayservice" />
       <recent name="C:\Users\dhana\IdeaProjects\SriTel\AccountService\src\main\java\com\sritel\accountservice" />
@@ -139,7 +163,8 @@
       <workItem from="1727286150291" duration="15613000" />
       <workItem from="1727336501153" duration="29000" />
       <workItem from="1727498129558" duration="869000" />
-      <workItem from="1727500165529" duration="3329000" />
+      <workItem from="1727500165529" duration="6438000" />
+      <workItem from="1727539407198" duration="5665000" />
     </task>
     <task id="LOCAL-00001" summary="created discovery service">
       <option name="closed" value="true" />
@@ -173,11 +198,30 @@
       <option name="project" value="LOCAL" />
       <updated>1727332262413</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="changed gateway service">
+      <option name="closed" value="true" />
+      <created>1727534697038</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727534697038</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -185,6 +229,7 @@
     <MESSAGE value="Account service fixed" />
     <MESSAGE value="added api gateway" />
     <MESSAGE value="fixed gateway and bill service" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed gateway and bill service" />
+    <MESSAGE value="changed gateway service" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed gateway service" />
   </component>
 </project>

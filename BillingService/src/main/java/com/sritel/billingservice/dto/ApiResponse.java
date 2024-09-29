@@ -1,4 +1,4 @@
-package com.sritel.gatewayservice.exception;
+package com.sritel.billingservice.dto;
 
 import lombok.Getter;
 import lombok.Setter;
