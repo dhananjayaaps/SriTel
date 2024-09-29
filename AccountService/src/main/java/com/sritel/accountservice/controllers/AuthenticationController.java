@@ -81,14 +81,13 @@ public class AuthenticationController {
                     signupRequest.getLast_name(),
                     signupRequest.getNic(),
                     signupRequest.getPhoneNumber(),
-                    signupRequest.getMarketing_accept()
+                    true
             );
 
             Set<Role> roles = new HashSet<>();
             Role userRole = roleRepository.findByName("ROLE_USER")
                     .orElseThrow(() -> new RuntimeException("Error: Role not found."));
             roles.add(userRole);
-
             user.setRoles(roles);
             userRepository.save(user);
 

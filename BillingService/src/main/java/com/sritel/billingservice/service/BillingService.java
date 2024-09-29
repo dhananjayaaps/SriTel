@@ -40,4 +40,19 @@ public class BillingService {
         Charge charge = Charge.create(chargeParams);
         return charge.getStatus();
     }
+
+    public Bill addBill(Bill bill) {
+        return billRepository.save(bill);
+    }
+
+    public Bill updateBill(Bill bill) {
+        Bill updatedbill = billRepository.findById(bill.getId()).orElse(null);
+        if (updatedbill == null) {
+            Bill error =new Bill();
+            error.setDescription("Bill not found");
+            return error;
+        }
+        updatedbill.setAmount(updatedbill.getAmount()+bill.getAmount());
+        return billRepository.save(updatedbill);
+    }
 }
