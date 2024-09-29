@@ -18,7 +18,8 @@ public class AccountService {
         String url = "http://ACCOUNT-SERVICE/auth/getUser";
 
         HttpHeaders headers = new HttpHeaders();
-        headers.set("token", token);
+        headers.set("jwtToken", token);
+        System.out.println("Token: " + token);
 
         HttpEntity<String> entity = new HttpEntity<>(headers);
 

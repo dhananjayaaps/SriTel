@@ -43,7 +43,7 @@ public class SecurityConfig {
                 .cors(Customizer.withDefaults())
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers("/authenticate", "/auth/**", "/health", "/login").permitAll()
-                        .requestMatchers("/reset-password/**").permitAll()
+                        .requestMatchers("/reset-password/**","/roles").permitAll()
                         .anyRequest().authenticated()
                 )
                 .exceptionHandling(ex -> ex.authenticationEntryPoint(jwtAuthenticationEntryPoint))
